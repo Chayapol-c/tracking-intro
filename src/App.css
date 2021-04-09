@@ -22,3 +22,12 @@ body{
   --grayish-blue: hsl(231, 7%, 65%);
   --light-grayish-blue: hsl(207, 33%, 95%);
 }
+
+@media (max-width: 375px){
+  body{
+    margin: 0;
+    padding: 1.5rem 1.5rem;
+    border: 1px solid blue;
+    overflow: hidden;
+  }
+}

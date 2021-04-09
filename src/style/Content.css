@@ -76,3 +76,15 @@ footer{
     text-transform: uppercase;
     letter-spacing: 0.25rem;
 }
+
+@media (max-width: 375px){
+    section{
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    header{
+        font-size: 1.5rem;
+        letter-spacing: -0.1rem;
+    }
+}

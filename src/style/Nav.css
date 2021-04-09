@@ -28,3 +28,23 @@ li:hover{
     color: hsl(230, 11%, 40%);
     margin: 0 0 0 4rem;
 }
+
+
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 375px){
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        display: none;
+        
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+}
