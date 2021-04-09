@@ -6,7 +6,8 @@ import '../style/BackGround.css'
 const BackGround = () => {
     return (
         <div className="background">
-            <img src={device} />
+            <img src={device} 
+                alt="background" />
             <div className="rect">
             </div>
         </div>
